@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'figtree-extrabold';
+    src: url('../fonts/Figtree-ExtraBold.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'figtree-semibold';
+    src: url('../fonts/Figtree-SemiBold.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'figtree-variablefont';
+    src: url('../fonts/Figtree-VariableFont_wght.ttf') format(truetype);
+}
+
+:root {
+    --cor01: #ffcc73;
+    --cor02: #000000;
+    --cor03: #ffffff;
+
+    --fonte-extrabold: 'figtree-extrabold', verdana, sans-serif;
+    --fonte-semibold: 'figtree-semibold', verdana, sans-serif;
+    --fonte-variable: 'figtree-variablefont', verdana, sans-serif;
+}
+
+body {
+    background-color: var(--cor01);
+}
+
+main {
+    margin: auto;
+    height: 550px;
+    width: 400px;
+    background-color: var(--cor03);
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 5px 9px 6px black;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main > section {
+    background-image: url('../images/imagem_principal.png');
+    margin: auto;
+    margin: 20px;
+    height: 190px;
+    width: 350px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+main > section > h4 {
+    font-family: var(--fonte-extrabold);
+    width: 80px;
+    margin: 220px 0px 0px -5px;
+    background-image: linear-gradient(to left bottom, var(--cor01), var(--cor03));
+    text-align: center;
+    box-shadow: inset 0px 0px 6px 1px black;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+main > section > article > p {
+    font-family: var(--fonte-variable);
+}
