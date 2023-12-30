@@ -72,6 +72,34 @@ main > section > h4 {
     border-radius: 5px;
 }
 
-main > section > article > p {
+main > section > article > p#data {
     font-family: var(--fonte-variable);
+    font-size: 0.9em;
+    color: #444444;
+    margin: 15px 0px 0px -5px;
+    text-decoration: underline;
+}
+
+main > section > article > h1 {
+    font-family: var(--fonte-extrabold);
+    font-size: 1.5em;
+    margin: 15px 0px 0px -5px;
+}
+
+main > section > article > p#text {
+    width: 280px;
+    font-family: var(--fonte-variable);
+    color: #444444;
+    margin: 15px 0px 0px -5px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+main > section > article > p#greg {
+    font-family: var(--fonte-extrabold);
+    margin: 50px 0px 0px 75px;
+}
+
+main > section > article > img {
+    margin: -45px 0px 0px -5px;
 }
