@@ -87,12 +87,11 @@ main > section > article > h1 {
 }
 
 main > section > article > p#text {
-    width: 280px;
+    width: 350px;
     font-family: var(--fonte-variable);
     color: #444444;
     margin: 15px 0px 0px -5px;
     line-height: 1.5em;
-    text-align: justify;
 }
 
 main > section > article > p#greg {
